@@ -1,0 +1,122 @@
+body{
+  background-color: rgb(2, 21, 46);
+}
+.texts{
+  color: rgb(230, 198, 156);
+  display: block;
+  padding-left: 5%;
+}
+.wrapper{
+  background-color: royalblue;
+  height: 70vh;
+  width: 25vw;
+  color: white;
+  padding-left: 5vw;
+  padding-top: 5vh;
+  margin: 0 auto;
+  border-radius: 50px;
+
+}
+.displayTemp{
+  width: 20vw;
+  height: 40vh;
+  background-color: rgb(6, 34, 70);
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: 2s;
+}
+.buttonWrapper{
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  height: 17vh;
+  /* background-color: blue; */
+}
+.buttonWrapper button{
+  width: 40%;
+  height: 100%;
+  background-color: blue;
+  color: white;
+  border-radius: 50%;
+  border: 3px solid white;
+  font-size: 3vw;
+}
+
+.neutral{
+  background-color: gray;
+}
+
+.hot{
+  background-color: rgb(248, 225, 13);
+}
+
+.hotter{
+  background-color: rgb(231, 123, 34);
+}
+
+.veryHot{
+  background-color: red;
+}
+
+.cold{
+  background-color: rgb(123, 216, 253);
+}
+
+.colder{
+  background-color: rgb(63, 90, 211);
+}
+
+.coldest{
+  background-color: blue;
+}
+
+.emoji{
+  width: 80%;
+  height: 10vh;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+
+@media (max-width:579px){ 
+  .wrapper{
+
+    height: 70vh;
+    width: 60vw;
+    margin: 0 auto;
+    margin-top: 8%;
+    padding-bottom: 3%;
+  }
+  .displayTemp{
+    width: 89%;
+    height: 50%;
+    font-size: 40px;
+  }
+  .buttonWrapper{
+    display: flex;
+    justify-content: space-evenly;
+    width: 89%;
+    height: 30%;
+    margin-top: 10%;
+  }
+  .buttonWrapper button{
+    width: 40%;
+    height: 40%;
+    font-size: 6vw;
+  }
+
+  
+.emoji{
+  width: 89%;
+  height: 10vh;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+
+
+}
