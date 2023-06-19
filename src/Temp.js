@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import { useState } from "react";
 function Temp(){
     const [number, setNumber] = useState(0)
