@@ -14,7 +14,7 @@ function Temp(){
         newTemp >= 10 ? setColor("hotter") : null
         newTemp >= 15 ? setColor("veryHot") : null
         newTemp == 15  ? setEmoji(<span>&#129327;🥵</span>) : null
-        newTemp == -5 ? setColor("neutralnpm run") : null
+        newTemp == -5 ? setColor("neutral") : null
         newTemp <= -10 ? setColor("cold") : null
         newTemp <= -15 ? setColor("colder") : null
         newTemp == -15 ? setEmoji("") : null;
